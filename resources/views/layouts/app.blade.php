@@ -50,7 +50,7 @@
                                         <div class="t-content">
                                             <div class="t-uppercontent">
                                                 <h5>Logs</h5>
-                                                <span class="">{{ $todo[0]->created_at->toRfc850String() }} </span>
+                                                <span class="">{{ $todo[0]->created_at->toDayDateTimeString() }} </span>
                                             </div>
                                             <p><span>Created</span> Server Logs from Todo Categories</p>
                                             <div class="tags">
@@ -66,7 +66,7 @@
                                         <div class="t-content">
                                             <div class="t-uppercontent">
                                                 <h5>Logs</h5>
-                                                <span class="">{{ $todo[0]->created_at->toRfc850String() }} </span>
+                                                <span class="">{{ $todo[0]->created_at->toDayDateTimeString() }} </span>
                                             </div>
                                             <p>Updated <span>Server Logs on Todo Category</span></p>
                                             <div class="tags">
@@ -82,7 +82,7 @@
                                         <div class="t-content">
                                             <div class="t-uppercontent">
                                                 <h5>Reboot</h5>
-                                                <span class="">{{ $todo[0]->created_at->toRfc850String() }} </span>
+                                                <span class="">{{ $todo[0]->created_at->toDayDateTimeString() }} </span>
                                             </div>
                                             <p>Server rebooted successfully</p>
                                             <div class="tags">
